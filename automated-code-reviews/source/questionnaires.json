@@ -1,0 +1,44 @@
+{
+    "coding_best_practices" : [
+        "The codebase following the best practices of the language? if no, what is your observations.",
+        "Verify the codebase structure and check if it is modularized. If no, suggest improvements.",
+        "All exception handling is done properly? If no, provide all instances.",
+        "Enough code comments provided?",
+        "Database connections have been efficiently managed?",
+        "is there any hard coded values in the codebase?",
+        "Is there any unused code in the codebase?",
+        "Is there any code duplication in the codebase?",
+        "Is there any performance issues in the codebase?",
+        "Is there any memory leaks in the codebase?",
+        "Is there any code smells in the codebase?",
+        "variable names are properly defined?",
+        "Is there any dead code in the codebase?"
+    ],
+
+    "security_best_practices" : [
+        "Is the codebase following the security best practices?",
+        "Is there any security vulnerabilities in the codebase?",
+        "Is there any sensitive data exposed in the codebase?",
+        "Is there any security misconfigurations in the codebase?",
+        "Dockerfile is security compliant?",
+        "Is there any security headers missing in the apis?",
+        "CORS is properly configured?",
+        "secret manager is used for credentials?",
+        "Any OWASP findings in the codebase?"
+    ],
+
+    "testing_best_practices" : [
+        "Is the codebase following the testing best practices?",
+        "Is there any unit test cases missing in the codebase?",
+        "Is there any integration test cases missing in the codebase?",
+        "Is there any end to end test cases missing in the codebase?",
+        "Is there any performance test cases missing in the codebase?",
+        "Is there any security test cases missing in the codebase?",
+        "Is there any code coverage missing in the codebase?",
+        "Is there any test data missing in the codebase?",
+        "Is there any test data leakage in the codebase?",
+        "Is there any test data hard coded in the codebase?",
+        "Is there any test data duplication in the codebase?",
+        "Is there any test data smells in the codebase?"
+    ]
+}

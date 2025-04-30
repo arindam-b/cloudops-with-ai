@@ -1,0 +1,5 @@
+env
+venv
+archive
+__pycache__
+*.md
